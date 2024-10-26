@@ -1,0 +1,7 @@
+
+# Temp files
+/tmp/**
+
+# Development files
+node_modules
+.env

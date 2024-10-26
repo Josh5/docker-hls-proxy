@@ -1,0 +1,18 @@
+# Run a development environment
+---
+services:
+  hls-proxy:
+    image: ghcr.io/josh5/hls-proxy
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+
+    # ENVIRONMENT:
+    environment:
+      HLS_PROXY_LOG_LEVEL: "1"
+      HLS_PROXY_HOST_IP: "localhost"
+      HLS_PROXY_PORT: "9987"
+
+    # NETWORK:
+    ports:
+      - "8000:8000"

@@ -1,0 +1,16 @@
+{
+    "name": "hls-proxy",
+    "version": "1.0.0",
+    "description": "A simple HLS proxy project",
+    "engines": {
+      "node": ">=20.0.0 <22.0.0"
+    },
+    "scripts": {
+        "start": "npx @warren-bank/hls-proxy",
+        "version": "npx hlsd --version"
+    },
+    "dependencies": {
+        "@warren-bank/hls-proxy": "^3.5.4"
+    },
+    "license": "MIT"
+}
