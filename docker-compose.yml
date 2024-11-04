@@ -2,7 +2,7 @@
 ---
 services:
   hls-proxy:
-    image: ghcr.io/josh5/hls-proxy
+    image: ghcr.io/josh5/warren-bank-hls-proxy
     build:
       context: .
       dockerfile: ./Dockerfile
